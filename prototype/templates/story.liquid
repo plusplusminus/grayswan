@@ -1,0 +1,53 @@
+{% block content %}
+	<div class="hero">
+		<h5>&mdash; OUR STORY</h5>
+		<hr>
+		<h2>In theory a "Black Swan" as first described in AD 82 depicted a creature that did not exist.<span class="small">However, in 1790 a Black Swan was discovered and therefore proved the existence of the improbable.</span></h2>
+		<br><br><br>
+		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
+	</div>
+</div>
+<div class="container-fluid">
+	<br>
+	<div class="jumbotron">
+		<div role="tabpanel">
+			<div class="col-md-5">
+				{% for story in model.stories %}
+					<h2><a href="#{{ story.link }}" role="tab" data-toggle="tab">{{ story.title }}</a></h2>
+				{% endfor %}
+			</div>
+			<div class="col-md-7">
+				<div class="tab-content">
+					{% for story in model.stories %}
+						<div role="tabpanel" class="tab-pane {{ story.active }}" id="{{ story.link }}">
+							<br><br>
+							<strong><small>&mdash; {{ story.title }}</small></strong>
+							<p class="lead">{{ story.quote }}</p>	
+							{{ story.content }}
+							<{{ story.list }}>
+								{{ story.items }}
+							</{{ story.list }}>
+							{{ story.post-content }}
+							<a href="#">{{ story.cta }}</a>
+							{{ story.images }}
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	<div class="clearfix"></div>
+	<br><br>
+	</div><!--/.jumbotron-->
+</div>
+
+<div class="container">
+	
+	{% include "testimonials" %}
+
+</div>
+
+<div class="container">
+	
+	{% include "newsletter" %}
+
+{% endblock %}

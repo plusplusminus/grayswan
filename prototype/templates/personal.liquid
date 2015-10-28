@@ -1,0 +1,90 @@
+{% block content %}
+	<div class="hero">
+		<h5>&mdash; PERSONAL INVESTORS</h5>
+		<hr>
+		<h2>“Yes, some people may discover they can do financial planning by themselves. But for most of us, we’ll need some help. Not because we aren’t smart enough, but because we recognize the benefits of working with someone who, well, isn’t us.”<span class="small"><p>Financial planning is a continuous journey. We assist you to experience financial freedom and to ensure a comfortable retirement. </p><p>Our strength is to provide tailor-made solutions that suit your specific financial needs and risk appetite. We listen to your situation and assist you to set up a comprehensive investment plan and start saving accordingly. We take the stress out of financial planning.</p></span></h2>
+		<br><br><br>
+		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
+	</div>
+</div>
+<div class="container-fluid">
+	<br>
+	<div class="jumbotron">
+		<div role="tabpanel">
+			<div class="col-md-5">
+				{% for personal in model.personals %}
+					<h2><a href="#{{ personal.link }}" role="tab" data-toggle="tab">{{ personal.title }}</a></h2>
+				{% endfor %}
+				<hr>
+				<p><a class="btn btn-primary" href="#">Invest Now <i class="fa fa-long-arrow-right"></i></a> <a class="btn btn-link" href="#">Download Brochure <i class="fa fa-file-pdf-o"></i></a></p>
+				<hr>
+			</div>
+			<div class="col-md-7">
+				<div class="tab-content">
+					{% for personal in model.personals %}
+						<div role="tabpanel" class="tab-pane {{ personal.active }}" id="{{ personal.link }}">
+							<br><br>
+							<strong><small>&mdash; {{ personal.title }}</small></strong>
+							<p class="lead">{{ personal.quote }}</p>	
+							{{ personal.content }}
+							<{{ personal.list }}>
+								{{ personal.items }}
+							</{{ personal.list }}>
+							{{ personal.post-content }}
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link1 }}c">{{ personal.collapse1t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link1 }}c"><div class="well">
+    								{{ personal.collapse1c }}
+    								<a href="#">{{ personal.cta1 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link2 }}c">{{ personal.collapse2t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link2 }}c"><div class="well">
+    								{{ personal.collapse2c }}
+    								<a href="#">{{ personal.cta2 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link3 }}c">{{ personal.collapse3t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link3 }}c"><div class="well">
+    								{{ personal.collapse3c }}
+    								<a href="#">{{ personal.cta3 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link4 }}c">{{ personal.collapse4t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link4 }}c"><div class="well">
+    								{{ personal.collapse4c }}
+    								<a href="#">{{ personal.cta4 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link5 }}c">{{ personal.collapse5t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link5 }}c"><div class="well">
+    								{{ personal.collapse5c }}
+    								<a href="#">{{ personal.cta5 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ personal.link }}{{ personal.link6 }}c">{{ personal.collapse6t }}</a>
+								<div class="collapse" id="collapse{{ personal.link }}{{ personal.link6 }}c"><div class="well">
+    								{{ personal.collapse6c }}
+    								<a href="#">{{ personal.cta6 }}</a>
+    							</div></div>
+    						<br>
+							<a href="#">{{ personal.cta }} <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	<div class="clearfix"></div>
+	<br><br>
+	</div><!--/.jumbotron-->
+</div>
+
+<div class="container">
+	{% include "insights" %}
+</div>
+
+<div class="container">
+	
+	{% include "newsletter" %}
+
+{% endblock %}

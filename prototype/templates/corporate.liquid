@@ -1,0 +1,53 @@
+{% block content %}
+	<div class="hero">
+		<h5>&mdash; CORPORATE INVESTORS</h5>
+		<hr>
+		<h2>Whatever the reason is for your company to invest money, we can assist you to find the most suitable investment solution. We assist you to implement cost-effective, tailor-made investment solutions. As part of this process we advise you to:  <span class="small"><ul class=""><li>set an appropriate performance target;</li><li>optimally combine different asset classes;</li><li>invest in complementary investment styles;</li><li>diversify your portfolio between local and offshore investments;</li><li>incorporate offshore currency into your portfolio;</li><li>implement hedging or structured solutions to manage risk optimally.</li></ul></span></h2>
+		<br><br><br>
+		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
+	</div>
+</div>
+<div class="container-fluid">
+	<br>
+	<div class="jumbotron">
+		<div role="tabpanel">
+			<div class="col-md-5">
+				{% for corporate in model.corporates %}
+					<h2><a href="#{{ corporate.link }}" role="tab" data-toggle="tab">{{ corporate.title }}</a></h2>
+				{% endfor %}
+				<hr>
+				<p><a class="btn btn-primary" href="#">Invest Now <i class="fa fa-long-arrow-right"></i></a> <a class="btn btn-link" href="#">Download Brochure <i class="fa fa-file-pdf-o"></i></a></p>
+				<hr>
+			</div>
+			<div class="col-md-7">
+				<div class="tab-content">
+					{% for corporate in model.corporates %}
+						<div role="tabpanel" class="tab-pane {{ corporate.active }}" id="{{ corporate.link }}">
+							<br><br>
+							<strong><small>&mdash; {{ corporate.title }}</small></strong>
+							<p class="lead">{{ corporate.quote }}</p>	
+							{{ corporate.content }}
+							<{{ corporate.list }}>
+								{{ corporate.items }}
+							</{{ corporate.list }}>
+							{{ corporate.post-content }}
+							<a href="#">{{ corporate.cta }} <i class="fa fa-long-arrow-right"></i></a>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	<div class="clearfix"></div>
+	<br><br>
+	</div><!--/.jumbotron-->
+</div>
+
+<div class="container">
+	{% include "insights" %}
+</div>
+
+<div class="container">
+	
+	{% include "newsletter" %}
+
+{% endblock %}

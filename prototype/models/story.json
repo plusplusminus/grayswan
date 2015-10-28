@@ -1,0 +1,51 @@
+{
+	"stories": [
+		{
+			"link": "1",
+			"active": "active",
+			"title": "Our Business",
+			"quote": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue.",
+			"content": "",
+			"list": "p",
+			"items": "",
+			"cta": ""
+		},
+		{
+			"link": "2",
+			"title": "Our Name ",
+			"quote": "In theory a 'Black Swan' as first described in AD 82 depicted a creature that did not exist. However, in 1790 a Black Swan was discovered and therefore proved the existence of the improbable.",
+			"content": "<p>In Nicholas Taleb’s book, The Black Swan, he used the bird to explain the belief that 'all swans are white' is based on the limits of our experience. In other words, some occurrences are unpredictable because they deviate so far beyond what is normally expected. Such experiences are rare but when they occur they have massive consequences. Examples of such are the 9/11 twin towers event, the invention of the internet or the 2008 US sub-prime financial crises. </p><p>We can protect against what we know, but not against what we do not know. 'Black Swan' events are therefore random and unexpected. They are the unpredictable unknowns. “GraySwans”, as we coined the term, however, are risks that can be identified and which have unintended consequences on investors’ portfolios and therefore should be avoided.</p><p>At GraySwan we do not intend to predict the unpredictable. Our investment and risk advisory services rather empower our clients to avoid GraySwan risks. Risks that are unintended or uncompensated should be avoided. Robust portfolio design eliminates GraySwan risks and thereby maximizes expected returns at a predefined level of risk.</p>",
+			"list": "p",
+			"items": "",
+			"cta": ""
+		},
+		{
+			"link": "3",
+			"title": "Our Values",
+			"quote": "<em>Two roads diverged into the woods and I, I took the road less traveled and that made all the difference</em>",
+			"content": "<p>We are passionate about investments – it’s one thing we do really well. And we are passionate about doing the right things for the right reasons. This means that whatever we set ourselves out to do, we do it with integrity and we do it whole-heartedly. Whether it is investments or giving or family – we always go the extra mile. That’s just us. In the words of Robert Frost, “Two roads diverged into the woods and I, I took the road less traveled and that made all the difference”</p><p>We do business and life based on the following principles:</p>",
+			"list": "ul",
+			"items": "<li><strong>Boutique</strong> – We are an owner-managed, boutique company. We focus our attention on investment consulting and offer you a premium and sophisticated service. We want you to have an authentic experience that meets your unique needs. Boutique does not mean expensive and exclusive, it means focused and tailor-made. This allows us to keep our team and our overheads to the minimum and in return you pay only for what you really need.</li><li><strong>Trustworthy</strong> – Doing the right things for the right reasons is our DNA. That is why you can trust our advice and why you can sleep well at night. For us it is about integrity and we do what we say we do even when no one is checking up on us. We value transparency and uncomplicated fees and we ensure that the people who manage your money care about the right things too. </li><li><strong>Disciplined</strong> - We always count. We do thorough and detailed analyses and research. We follow disciplined processes and apply our minds and experience to provide you with trustworthy recommendations. </li><li><strong>Passionate</strong> – We believe that passion changes everything. It certainly changes everything for us. Our passion for investments is the reason why everything we do is tailor-made for you. It is the drive beyond our professional excellence. It is the reason we give generously. Passion is what makes us not boring. It drives us to find new opportunities and innovate smarter ways of doing things. One thing about us, that you can know for sure, is we always go the extra mile. </li>",
+			"cta": ""
+		},
+		{
+			"link": "4",
+			"title": "BEE Credentials",
+			"quote": "We are proud to say that we are a Level I BEE contributor as rated by Empowerdex. Since inception of our business we have pro-actively worked to build a truly representative South African business and we will continue to do so. ",
+			"content": "<div class='row'><div class='col-md-2'><img class='img-responsive' src='public/images/footer/bee.jpg'></div></div>",
+			"list": "p",
+			"items": "<br><a href='#' class='btn btn-primary'>Download BEE Certificate</a>",
+			"cta": ""
+		},
+		{
+			"link": "5",
+			"title": "We Give",
+			"quote": "At GraySwan, we believe that we should spend a third of our lives educating ourselves, another third to create wealth and the other third giving away our wealth. Profits are the reward, not the reason for us being in business.",
+			"content": "<p>Giving is one of those things we do because we love doing it. Giving generously springs from the passion in our hearts to be involved in changing communities. In terms of Corporate Social Investment (“CSI”) we have to date channeled 10% of the post-tax profits of our business to the GraySwan Charitable Trust. Our approach to CSI is not to only give money, but to give our time as well.</p><p>The GraySwan Charitable Trust was established as the primary vehicle through which we channel funds to positively impact our direct community.</p><p>The Trust mainly focuses on making a difference in the lives of underprivileged people. Some of the organizations and projects that we have supported over the past 10 years and will continue to support are:</p>",
+			"list": "ul",
+			"items": "<li>The Abraham Kriel Maria Kloppers Emdeni Orphanage in Johannesburg makes a meaningful difference in the lives of 800 children and we have a long standing financial relationship of over 10 years. </li><li>Home from Home forster homes in Kayamandi.</li><li>Prochorus Community Development outside Stellenbosch. Prochorus serves the people of Kayamandi, enabling volunteers and donors from affluent communities and churches to invest in the lives of the babies, children, women and men - transforming a generation, one life at a time.</li><li>Vlottenburg Creche. It is the first registered crèche in Vlottenburg with 28 toddlers. </li>",
+			"cta": "If you would like to support or get to know more about any of the projects, please contact Tania Theron.",
+			"images": "<div class='row'><br><br><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div><div class='col-md-4'><img class='img-responsive thumbnail' src='http://placehold.it/600x400'/></div></div>"
+		}
+	]
+}

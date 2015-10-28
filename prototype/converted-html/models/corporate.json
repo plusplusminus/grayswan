@@ -1,0 +1,50 @@
+{
+	"corporates": [
+		{
+			"link": "1",
+			"active": "active",
+			"title": "Tax Efficient Cash+ Solutions",
+			"quote": "If your company wishes to implement solutions that provide higher after tax returns on excess liquid cash as well as protection from capital volatility we advise you to construct a Tax Efficient Cash Plus solution. Such a solution provides returns mainly in the form of dividends and offers capital preservation with 24-hour liquidity.",
+			"content": "",
+			"list": "p",
+			"items": "",
+			"cta": "<u>Contact us</u> today to ensure that your company’s cash or short-term assets are optimally invested."
+		},
+		{
+			"link": "2",
+			"title": "Group Retirement Solutions",
+			"quote": "It is best practice for your company to provide an optimal retirement savings offering to employees. Setting up a retirement offering is not as complicated and costly as you might think. Most people start investing too late or too little at unnecessary high costs and at insufficient levels of risk - as an employer you can help your employees to successfully save for retirement.",
+			"content": "<p>We assist you to set up the most optimal group scheme for your employees. </p>",
+			"list": "p",
+			"items": "",
+			"cta": "<u>Contact us</u> today to implement the most cost-effective, seamless retirement offering for your employees."
+		},
+		{
+			"link": "3",
+			"title": "Hedging Solutions",
+			"quote": "A strong risk culture plays a critical role in the establishment of an effective risk management process for your company.  You can incorporate “tail risk hedging” to protect against adverse market volatility. We also assist you to implement currency hedging structures as the Rand is the most volatile currency in the world.",
+			"content": "",
+			"list": "p",
+			"items": "",
+			"cta": "<u>Contact us</u> today  to implement optimal and cost-effective market and currency hedges."
+		},
+		{
+			"link": "4",
+			"title": "Enterprise Development Solutions",
+			"quote": "",
+			"content": "",
+			"list": "p",
+			"items": "",
+			"cta": ""
+		},
+		{
+			"link": "5",
+			"title": "Business Assurance",
+			"quote": "",
+			"content": "",
+			"list": "p",
+			"items": "",
+			"cta": ""
+		}
+	]
+}

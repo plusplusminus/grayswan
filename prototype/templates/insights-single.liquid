@@ -1,0 +1,67 @@
+{% block content %}
+	<div class="hero">
+		<h5 class="pull-left">&mdash; OUR INSIGHTS</h5>
+		<ul class="nav nav-pills small pull-right">
+		  <li role="presentation"><a href="#">All</a></li>
+		  <li role="presentation"><a href="#">Featured</a></li>
+		  <li role="presentation"><a href="#">Most Popular</a></li>
+		  <li role="presentation" class="active"><a href="#">Research</a></li>
+		  <li role="presentation"><a href="#">Market Updates</a></li>
+		  <li role="presentation"><a href="#">Peer Group Surveys</a></li>
+		</ul>
+		<div class="clearfix"></div>
+		<hr>
+		<h2>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</h2>
+		<div class="col-md-3">
+			<small><strong>23 August 2015 | D. Theron</strong></small><br>
+			<hr>
+			<ul class="list-inline">
+				<li><a href="#" class="fa fa-facebook fa-2x"></a></li>
+				<li><a href="#" class="fa fa-twitter fa-2x"></a></li>
+				<li><a href="#" class="fa fa-linkedin fa-2x"></a></li>
+				<li><a href="#" class="fa fa-envelope fa-2x"></a></li>
+			</ul>
+			<br><br>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<br>
+	<div class="col-md-8">
+		<div class="jumbotron">
+			<p class="lead">We are the second investment consulting firm in South Africa to have become a signatory of the United Nations backed Principles for Responsible Investment (UNPRI). Signatories promise to uphold the six principles that require them to act with the highest integrity and highest effort on Environmental, Social and Governance (ESG) issues and also to expect the same from service providers to their clients.</p>
+			<p>We thereby forms part of a global network of investment peers who participate in online or live in-person events, forums and initiatives focused at integrating ESG issues into investment decision-making. We also support the Code for Responsible Investing in South Africa (CRISA) with the same vigor. CRISA is in line with UNPRI, but specifically aimed at the South African investment community.</p>
+			<p>We have established a formal Responsible Investing (RI) Committee focusing on Regulation 28, CRISA, proxy voting, corporate governance, conflicts of interest, infrastructure, renewable energy and other ESG issues. We regularly invite experts from the investment and other industries, to share their view and approach to Responsible Investing. It is about building a network of experts that challenge the status quo with the aim to actively transform the investment industry to support and exercise ethical business practices that will create sustainable wealth. </p>
+			<p>We can assist you to implement Responsible Investing (RI) Policies and advise you on practical ways to utilize your investments to make Environmental, Social and Governance impacts that will leave a legacy for generations to come. </p>
+			<a href="/insights-single" class="btn btn-link pull-left">Download <i class="fa fa-file-o"></i></a>
+			<div class="clearfix"></div>
+		</div>
+		  <div class="row">
+		    <div class="previous col-md-6">
+		    	<div class="jumbotron">
+		    		<div aria-hidden="true">&larr;</div>
+		    		<a href="#"><h4>Fusce dapibus, tellus ac cursus commodo, usto sit amet risus.</h4></a>
+		    		<strong><small>23 June 2015 | Category |  Author</small></strong>
+		    	</div>
+		    </div>
+		    <div class="next col-md-6">
+		    	<div class="jumbotron text-right">
+		    		<div aria-hidden="true">&rarr;</div>
+		    		<a href="#"><h4>Cras facilisis justo odio, dapibus ac facilisis in, egestas eget quam.</h4></a>
+		    		<strong><small>23 June 2015 | Category |  Author</small></strong>
+		    	</div>
+		   </div>
+		  </div>
+	</div>
+	<div class="col-md-4">
+		{% include "related-insights" %}
+	</div>
+<div class="clearfix"></div>
+<br><hr><br><br>
+</div>
+
+<div class="container">
+	
+	{% include "newsletter" %}
+
+{% endblock %}

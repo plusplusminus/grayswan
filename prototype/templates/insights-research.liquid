@@ -1,0 +1,38 @@
+{% block content %}
+	<div class="hero">
+		<h5 class="pull-left">&mdash; OUR INSIGHTS: Research</h5>
+		<ul class="nav nav-pills small pull-right">
+		  <li role="presentation" class="active"><a href="#">All</a></li>
+		  <li role="presentation"><a href="#">Most Popular</a></li>
+		  <li role="presentation"><a href="#">Investment Insights</a></li>
+		  <li role="presentation"><a href="#">Responsible Investing</a></li>
+		  <li role="presentation"><a href="#">Personal Investment</a></li>
+		  <li role="presentation"><a href="#">Institutional Investments</a></li>
+		</ul>
+
+		<div class="clearfix"></div>
+
+		    	<form class="navbar-form navbar-right" role="search">
+      				<div class="input-group">
+        				<input type="text" class="form-control input-sm" id="exampleInputAmount" placeholder="Search all Research">
+        				<div class="input-group-addon"><i class="fa fa-search"></i></div>
+      				</div>
+    			</form>
+    			<div class="clearfix"></div>
+		<hr>
+	</div>
+</div>
+
+<div class="container">
+	{% include "featured-insights" %}
+</div>
+
+<div class="container">
+	{% include "insights-feed" %}
+</div>
+
+<div class="container">
+	
+	{% include "newsletter" %}
+
+{% endblock %}

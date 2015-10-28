@@ -1,0 +1,121 @@
+{% block content %}
+	<div class="hero">
+		<h1>"To take risks and to make the world better by being amazing.		<span class="small">There has never been a worse time<br>for business as usual."</span></h1>
+		<footer><p class="lead">&mdash; Seth Godin</p></footer>
+		<br><br><br>
+		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
+	</div>
+</div>
+<div class="container-fluid">
+	<br>
+	<div class="jumbotron">
+		<div role="tabpanel">
+			<div class="col-md-5">
+				<h1><a href="#1" role="tab" data-toggle="tab">Personal</a></h1>
+				
+				<h1><a href="#2" role="tab" data-toggle="tab">Institutional</a></h1>
+
+				<h1><a href="#3" role="tab" data-toggle="tab">Corporate</a></h1>
+
+				<h1><a href="#4" role="tab" data-toggle="tab">Family Office</a></h1>
+
+				<h1><a href="#5" role="tab" data-toggle="tab">Financial Advisers</a></h1>
+			</div>
+			<div class="col-md-7">
+				<div class="tab-content">
+
+					<div role="tabpanel" class="tab-pane active" id="1">
+						<br><br>
+						<strong><small>&mdash; PERSONAL INVESTORS</small></strong>
+						<br><br>
+						<ul class="list-unstyled lead">
+							<li><a href="#">Savings &amp; Investments</a></li>
+							<li><a href="#">Retirement Planning</a></li>
+							<li><a href="#">Estate Planning</a></li>
+							<li><a href="#">Risk Cover</a></li>
+						</ul>
+						<a href="/personal" class="btn btn-default">More Information <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="2">
+						<br><br>
+						<strong><small>&mdash; INSTITUTIONAL INVESTORS</small></strong>
+						<br><br>
+						<ul class="lead list-unstyled">
+							<li><a href="#">Investment Audit</a></li>
+							<li><a href="#">Investment Strategy</a></li>
+							<li><a href="#">Investment Manager Selection</a></li>
+							<li><a href="#">Performance and Risk Reporting</a></li>
+							<li><a href="#">Transition Management</a></li>
+							<li><a href="#">Hedging Solutions</a></li>
+							<li><a href="#">Trustee Training</a></li>
+						</ul>
+						<a href="/institutional" class="btn btn-default">More Information <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+					
+					<div role="tabpanel" class="tab-pane" id="3">
+						<br><br>
+						<strong><small>&mdash; CORPORATE INVESTORS</small></strong>
+						<br><br>
+						<ul class="lead list-unstyled" list-unstyled>
+							<li><a href="#">Tax Efficient Cash+ Solutions</a></li>	
+							<li><a href="#">Group Retirement Solutions</a></li>	
+							<li><a href="#">Hedging Solutions</a></li>	
+							<li><a href="#">Enterprise Development Solutions</a></li>	
+							<li><a href="#">Business Assurance</a></li>	
+						</ul>
+						<a href="/corporate" class="btn btn-default">More Information <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+
+					<div role="tabpanel" class="tab-pane" id="4">
+						<br><br>
+						<strong><small>&mdash; FAMILY OFFICE INVESTORS</small></strong>
+						<br><br>
+						<ul class="lead list-unstyled">
+							<li> <a href="#">Wealth creation</a></li>
+							<li> <a href="#">Wealth retention</a></li>
+							<li> <a href="#">Retirement planning</a></li>
+							<li> <a href="#">Estate planning</a></li>
+							<li> <a href="#">Risk cover</a></li>
+						</ul>
+						<a href="/family" class="btn btn-default">More Information <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="5">
+						<br><br>
+						<strong><small>&mdash; FINANCIAL ADVISERS</small></strong>
+						<br><br>
+						<ul class="lead list-unstyled">
+							<li> <a href="#">Wealth creation</a></li>
+							<li> <a href="#">Wealth retention</a></li>
+							<li> <a href="#">Retirement planning</a></li>
+							<li> <a href="#">Estate planning</a></li>
+							<li> <a href="#">Risk cover</a></li>
+						</ul>
+						<a href="/family" class="btn btn-default">More Information <i class="fa fa-long-arrow-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="clearfix"></div>
+	</div><!--/.jumbotron-->
+</div>
+
+<div class="container">
+	{% include "values" %}
+</div>
+
+<div class="container">
+	{% include "newsletter" %}
+	<hr>
+</div>
+
+<div class="container">
+	{% include "testimonials" %}
+</div>
+
+
+
+<div class="container">
+
+
+{% endblock %}
