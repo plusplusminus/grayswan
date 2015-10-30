@@ -4,11 +4,12 @@
 			"link": "1",
 			"active": "active",
 			"title": "Investment Audit",
-			"quote": "<em><blockquote>It is best practice to have an independent review conducted on your current investment strategy.</em></blockquote>",
+			"quote": "<em><blockquote>It is best practice to have an independent review conducted on your current investment strategy.</blockquote></em>",
 			"content": "<p>We provide objective recommendations as to where enhancements can be made, transparency increased and fees reduced. Our recommendations serve as a “second opinion” to ensure that global best practice is implemented and that you are optimally positioned to reach your performance objectives.</p><p>As part of an Investment Audit, we review the following aspects of your investment strategy:</p>",
-			"list": "ol",
-			"items": "<li>Strategic Asset Allocation;</li><li>Tactical Asset Allocation;</li><li>Rebalancing framework;</li><li>Fund and investment manager benchmarks, performance targets and risk guidelines;</li><li>Performance and risk of the Fund and the selected investment managers;</li><li>Investment manager contractual agreements and mandates;</li><li>Investment manager fee structures and the relative attractiveness thereof in the industry;</li><li>Responsible Investing framework;</li><li>Risk Monitoring and Management framework;</li><li>Transaction Costs framework, i.e. stockbroker costs;</li><li>Transition Management framework;</li><li>Securities Lending framework.</li>",
-			"cta": "<u>Contact us</u> today to discuss why a “second opinion” is just what you need.<p><u>Download</u> Investment Audit.</p>"
+			"list": "<ol>",
+			"list": "</ol>",
+			"items": "<li>Strategic Asset Allocation;</li><li>Tactical Asset Allocation;</li><li>Rebalancing framework;</li><li>Fund and investment manager benchmarks, performance targets and risk guidelines;</li><li>Performance and risk of the Fund and the selected investment managers;</li><li>Investment manager contractual agreements and mandates;</li><li>Investment manager fee structures and the relative attractiveness thereof in the industry;</li><li>Responsible Investing framework;</li><li>Risk Monitoring and Management framework;</li><li>Transaction Costs framework, i.e. stockbroker costs;</li><li>Transition Management framework;</li><li>Securities Lending framework.</li><br><br>",
+			"cta": "<u>Contact us</u> today to discuss why a second opinion is just what you need.<p><u>Download</u> Investment Audit.</p>"
 		},
 		{
 			"link": "2",
@@ -22,11 +23,13 @@
 			"title": "Investment Policy Statements",
 			"quote": "<blockquote><em>“Quote” ― Name</em></blockquote>",
 			"content": "<p>Once the investment strategy has been defined we empower you to implement a comprehensive Investment Policy Statement (IPS), which defines and includes the following:</p>",
-			"list": "ul",
+			"list": "<ul>",
+			"list": "</ul>",
 			"items": "<li>Fund Performance Objectives;</li><li>Risk Budgets;</li><li>Long-term Strategic Asset Allocation;</li><li>Tactical Asset Allocation Ranges;</li><li>Rebalancing Policy;</li><li>Investment manager benchmarks, performance targets and risk guidelines;</li><li>Investment manager contractual agreements and mandates;</li><li>Investment manager fee structures.</li>",
 			"post-content": "<p>In addition to the IPS we also assist you to implement complimentary policies such as a:</p>",
-			"list": "ul",
-			"items": "<li>Responsible Investing Policy;</li><li>Risk Management Policy;</li><li>Transaction Cost Policy;</li><li>Transition Management Policy;</li><li>Securities Lending Policy.</li>",
+			"list2": "<ul>",
+			"list2close": "</ul>",
+			"items2": "<li>Responsible Investing Policy;</li><li>Risk Management Policy;</li><li>Transaction Cost Policy;</li><li>Transition Management Policy;</li><li>Securities Lending Policy.</li>",
 			"cta": "<u>Contact us</u> today to discuss an Investment Policy Statement for your needs."
 		},
 		{
@@ -41,8 +44,9 @@
 			"title": "Performance and Risk Reporting",
 			"quote": "<blockquote><em>We always count. We test, we verify and then we test again.</em></blockquote>",
 			"content": "<p>Our unique and refreshing performance and risk monitoring approach ensures that you receive full and fair disclosure of any performance and risk results, guaranteeing that all investment managers or products are assessed on a level and objective playing field. Our transparent reports empower you to fulfil your fiduciary role through informed, process driven and timely investment information.</p><p>Our reports further empower you to monitor the success of your long-term investment strategy as well as monitor the selected investment managers against appropriate benchmarks, performance targets and risk guidelines.</p><p>When engaging our reporting services, you receive performance and risk reports that are:</p>",
-			"list": "ul",
-			"items": "<li>Offer global coverage of markets and investment managers;</li><li>Timeous, up to date and always accurate;</li><li>Promote transparency and provide objective, fair and clear results;</li><li>Incorporates leading edge risk monitoring techniques;</li><li>Provide information on changes in the investment strategy and the positioning of your portfolio.</li>",
+			"list": "<ul>",
+			"list": "</ul>",
+			"items": "<li>Offer global coverage of markets and investment managers;</li><li>Timeous, up to date and always accurate;</li><li>Promote transparency and provide objective, fair and clear results;</li><li>Incorporates leading edge risk monitoring techniques;</li><li>Provide information on changes in the investment strategy and the positioning of your portfolio.</li><br><br>",
 			"cta": "<u>Contact us</u> today to obtain more insight regarding our unique range of reports.<p><u>Download</u> Reporting Services.</p>"
 		},
 		{
@@ -50,7 +54,8 @@
 			"title": "Transition Management",
 			"quote": "<blockquote><em>Assets are often on the move.</em></blockquote>",
 			"content": "<p>Our transition management services encompass the professional project management of moving assets from one investment manager to another while not only controlling costs but also most importantly controlling for investment and legal risks throughout the entire process.</p><p>If you need to implement any of the scenarios below, our expertise will ensure a seamless, cost-effective and optimized transition: </p>",
-			"list": "ul",
+			"list": "<ul>",
+			"list": "</ul>",
 			"items": "<li>A revised investment strategy;</li><li>Asset allocation changes and rebalancing;</li><li>A new investment manager may need to be appointed;</li><li>New benchmarks and investment manager agreements. </li>",
 			"post-content": "<p>The success of any investment implementation is the ability to integrate project management, legal oversight and contract management with skilled and timely execution and risk management. </p>",
 			"cta": "<u>Contact us</u> today to implement a seamless and cost-effective transition."

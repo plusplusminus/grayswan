@@ -4,7 +4,7 @@
 			"link": "1",
 			"active": "active",
 			"title": "Savings & Investments ",
-			"quote": "<em> “Good investment ideas matter.” </em>",
+			"quote": "<em><blockquote>Good investment ideas matter.</blockquote></em>",
 			"content": "We are passionate about investments. Let us guide you to sufficiently save and optimally invest your money.  Our wealth of experience and professional advice will make your dreams a reality. We advise, you make the decisions; we then implement your decisions.",
 			"list": "p",
 			"items": "",
@@ -36,7 +36,7 @@
 		{
 			"link": "2",
 			"title": "Retirement Planning ",
-			"quote": "<em> “Someone is sitting in the shade today, because someone planted a tree a long time ago” - Warren Buffett.</em>",
+			"quote": "<em><blockquote>Someone is sitting in the shade today, because someone planted a tree a long time ago” - Warren Buffett.</blockquote></em>",
 			"content": "<p>Your retirement should be something you look forward to. Saving for retirement is however an on-going financial journey. Too many people start investing too late or too little at unnecessary high costs and at insufficient levels of risk.</p>",
 			"list": "p",
 			"items": "Our professional guidance and advice removes the uncertainty of the unknown. We ensure that you sleep well at night. We help you to invest your money at an appropriate level of risk in a cost-effective solution that provides optimal tax benefits. Let us assist you to plan ahead.",
@@ -54,7 +54,7 @@
 		{
 			"link": "3",
 			"title": "Estate Planning",
-			"quote": "<em> “Spend your money on the things money can buy. Spend your time on the things money can’t buy.” – Haruki Murakami </em>",
+			"quote": "<em><blockquote>Spend your money on the things money can buy. Spend your time on the things money can’t buy.” – Haruki Murakami</blockquote></em>",
 			"content": "<p>No matter how modest or how sizeable, everyone has an estate. An estate comprises of everything you own. When you pass away your estate will go to whoever you bequeathed it. Taxes and administration costs at death can be significant and may impact your heir’s inheritance if you do not sufficiently plan ahead. </p><p>We assist you with:</p>",
 			"list": "ul",
 			"items": "<li>Drafting or reviewing your will;</li><li>Calculating taxes and costs applicable to your estate on death;</li><li>Reviewing the liquidity of your estate</li><li>Providing recommendations regarding any shortcomings.</li>",
@@ -64,7 +64,7 @@
 		{
 			"link": "4",
 			"title": "Risk Cover",
-			"quote": "<em>“It’s not about working for money, it’s about having money work for you.” - Stephen Richards</em>",
+			"quote": "<em>It’s not about working for money, it’s about having money work for you.” - Stephen Richards</blockquote></em>",
 			"content": "<p>No one can predict the future or unfortunate events such as death and disability. However, we can position you to be adequately protected against potential losses and to minimize the impact thereof.</p><p>We offer you advice on:</p>",
 			"list": "ul",
 			"items": "<li>Life cover;</li><li>Disability cover;</li><li>Income protection;</li><li>Critical illness cover;</li><li>Funeral cover;</li><li>Educational cover.</li>",
