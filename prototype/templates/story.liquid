@@ -2,7 +2,7 @@
 	<div class="hero">
 		<h5>&mdash; OUR STORY</h5>
 		<hr>
-		<h2>GraySwan is a leading independent investment consulting company, whose core business is to provide investment advice to institutional, corporate, personal and family office investors.<span class="small"><p>Our disciplined and proven investment advisory approach, which we have successfully developed over almost two decades, ensure that our clients implement a robust and unique investment strategies which meets their short, medium and long term performance objectives.</p><p>We are already one of the three largest truly independent investment consulting businesses in South Africa in terms of assets under advice and the depth and strength of our investment consulting team. </p><p>We have offices in the Western Cape and Gauteng. We are a level I BBEE contributor and were the second investment consultant in South Africa to become a signatory to the United Nations Principles of Responsible Investing (UNPRI).</p></span></h2>
+		<h2>GraySwan is a leading independent investment consulting company.<span class="small"><p>Our core business is to provide investment advice to institutional, corporate, personal and family office investors.</p></span></h2>
 		<br><br>
 		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
 	</div>
@@ -25,18 +25,51 @@
 							<strong><small>&mdash; {{ story.title }}</small></strong>
 							<p class="lead">{{ story.quote }}</p>	
 							{{ story.content }}
-							<{{ story.list }}>
+							{{ story.list }}
 								{{ story.items }}
-							</{{ story.list }}>
-							<{{ story.list2 }}>
+							{{ story.list }}
+							{{ story.list2 }}
 								{{ story.items2 }}
-							</{{ story.list2 }}>
+							{{ story.list2 }}
+
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ story.link }}{{ story.link1 }}c">{{ story.collapse1t }}</a>
+								<div class="collapse" id="collapse{{ story.link }}{{ story.link1 }}c"><div class="well">
+    								{{ story.collapse1c }}
+    								<a href="#">{{ story.cta1 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ story.link }}{{ story.link2 }}c">{{ story.collapse2t }}</a>
+								<div class="collapse" id="collapse{{ story.link }}{{ story.link2 }}c"><div class="well">
+    								{{ story.collapse2c }}
+    								<a href="#">{{ story.cta2 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ story.link }}{{ story.link3 }}c">{{ story.collapse3t }}</a>
+								<div class="collapse" id="collapse{{ story.link }}{{ story.link3 }}c"><div class="well">
+    								{{ story.collapse3c }}
+    								<a href="#">{{ story.cta3 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ story.link }}{{ story.link4 }}c">{{ story.collapse4t }}</a>
+								<div class="collapse" id="collapse{{ story.link }}{{ story.link4 }}c"><div class="well">
+    								{{ story.collapse4c }}
+    								<a href="#">{{ story.cta4 }}</a>
+    							</div></div>
+
+							<a role="button" data-toggle="collapse" href="#collapse{{ story.link }}{{ story.link5 }}c">{{ story.collapse5t }}</a>
+								<div class="collapse" id="collapse{{ story.link }}{{ story.link5 }}c"><div class="well">
+    								{{ story.collapse5c }}
+    								<a href="#">{{ story.cta5 }}</a>
+    							</div></div>
+    					<br>
+    					<br>
 							{{ story.post-content }}
 							<a href="#">{{ story.cta }}</a>
 							{{ story.images }}
-						</div>
-					{% endfor %}
+    					<br>
 				</div>
+					{% endfor %}
 			</div>
 		</div>
 	<div class="clearfix"></div>

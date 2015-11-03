@@ -17,7 +17,19 @@
       
       <li {% if mixture.url == "meet" %}class="active"{% endif %}><a href="/meet">Our Team</b></a></li>
 
-      <li {% if mixture.url == "story" %}class="active"{% endif %}><a href="/story">Our Story</b></a></li>  
+      <li {% if mixture.url == "story" %}class="dropdown"{% endif %}>
+        <a href="/story" class="dropdown-toggle" data-toggle="dropdown">Our Story <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-submenu">
+          <li><a href="/story#1">Our Business</b></a></li>
+          <li><a href="/story#2">Our Name</a></li>
+          <li><a href="/story#3">Our Values</a></li>
+          <li><a href="/story#4">BEE Credentials</a></li>
+          <li><a href="/story#5">We Give</a></li>
+          </li>
+        </ul>
+      </li>
+
 
       <li {% if mixture.url == "responsible" %}class="active"{% endif %}><a href="/responsible">Responsible Investing</b></a></li>  
       
@@ -83,7 +95,6 @@
                 <li {% if mixture.url == "institutional" %}class="active"{% endif %}><a href="/institutional">Institutional Investors</a></li>
                 <li {% if mixture.url == "corporate" %}class="active"{% endif %}><a href="/corporate">Corporate Investors</a></li>
                 <li {% if mixture.url == "family" %}class="active"{% endif %}><a href="/family">Family Office Investors</a></li>
-                <li {% if mixture.url == "financial" %}class="active"{% endif %}><a href="/financial">Financial Advisers</a></li>
             </ul>
             <a href="#" class="pull-right btn btn-primary navbar-btn">Invest Now <i class="fa fa-long-arrow-right"></i></a>
         </div>
