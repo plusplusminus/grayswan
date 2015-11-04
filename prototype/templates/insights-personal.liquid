@@ -1,11 +1,9 @@
 {% block content %}
 	<div class="hero">
-		<h5 class="pull-left">&mdash; OUR INSIGHTS: Market Updates</h5>
+		<h5 class="pull-left">&mdash; OUR INSIGHTS: Personal Investments</h5>
 		<ul class="nav nav-pills small pull-right">
 		  <li role="presentation" class="active"><a href="#">All</a></li>
 		  <li role="presentation"><a href="#">Featured</a></li>
-		  <li role="presentation"><a href="#">Market Updates</a></li>
-		  <li role="presentation"><a href="#">Peer Group Surveys</a></li>
 		  <li class="dropdown">
 		    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archives<b class="caret"></b></a>
 		    <ul class="dropdown-menu">
@@ -22,7 +20,7 @@
 
 		    	<form class="navbar-form navbar-right" role="search">
       				<div class="input-group">
-        				<input type="text" class="form-control input-sm" id="exampleInputAmount" placeholder="Search all Market Updates">
+        				<input type="text" class="form-control input-sm" id="exampleInputAmount" placeholder="Search all Personal Investment Research">
         				<div class="input-group-addon"><i class="fa fa-search"></i></div>
       				</div>
     			</form>
@@ -33,9 +31,6 @@
 
 <div class="container">
 	{% include "featured-insights" %}
-
-	{% include "newsletter" %}
-	<hr>
 </div>
 
 <div class="container">
@@ -43,5 +38,7 @@
 </div>
 
 <div class="container">
+	
+	{% include "newsletter" %}
 
 {% endblock %}

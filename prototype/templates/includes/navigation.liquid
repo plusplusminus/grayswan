@@ -17,17 +17,18 @@
       
       <li {% if mixture.url == "meet" %}class="active"{% endif %}><a href="/meet">Our Team</b></a></li>
 
-      <li {% if mixture.url == "story" %}class="dropdown"{% endif %}>
-        <a href="/story" class="dropdown-toggle" data-toggle="dropdown">Our Story <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li class="dropdown-submenu">
-          <li><a href="/story#1">Our Business</b></a></li>
-          <li><a href="/story#2">Our Name</a></li>
-          <li><a href="/story#3">Our Values</a></li>
-          <li><a href="/story#4">BEE Credentials</a></li>
-          <li><a href="/story#5">We Give</a></li>
-          </li>
-        </ul>
+
+      <li class="dropdown">
+        <a href="/story#1" class="dropdown-toggle" data-toggle="dropdown">Our Story <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <li><a href="/story#1">Our Business </b></a></li>
+              <li><a href="/story#1">Our Name </a></li>
+              <li><a href="/story#1">Our Values </a></li>
+              <li><a href="/story#1">BEE Credentials </a></li>
+              <li><a href="/story#1">We Give </a></li>
+            </li>
+          </ul>
       </li>
 
 
@@ -38,15 +39,15 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Insights <b class="caret"></b></a>
         <ul class="dropdown-menu">
           <li class="dropdown-submenu">
-            <a tabindex="-1" href="#">Research</b></a>
+            <a tabindex="-1" href="/insights-research">Research</b></a>
             <ul class="dropdown-menu">
-              <li><a tabindex="-1" href="#">Personal Investments </a></li>
-              <li><a tabindex="-1" href="#">Responsible Investing </a></li>
-              <li><a tabindex="-1" href="#">Investment Insights </a></li>
+              <li><a tabindex="-1" href="/insights-personal">Personal Investments </a></li>
+              <li><a tabindex="-1" href="/insights-responsible">Responsible Investing </a></li>
+              <li><a tabindex="-1" href="/insights-investment">Investment Insights </a></li>
             </ul>
           </li>
           <li><a href="/insights-market">Market Updates</a></li>
-          <li><a href="/insights-research">Peer Group Surveys</a></li>
+          <li><a href="/insights-peer">Peer Group Surveys</a></li>
         </ul>
       </li>
 
@@ -63,7 +64,7 @@
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <b class="caret"></b></a>
         <ul class="dropdown-menu">
             <li><a href="/contact">Business</a></li>
-            <li><a href="/contact">Staff</a></li>
+            <li><a href="/meet">Staff</a></li>
         </ul>
       </li>
     

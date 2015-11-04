@@ -9,14 +9,14 @@
 			"list": "<ul>",
 			"list": "</ul>",
 			"items": "<li>GraySwan Investments provides investment consulting services to institutional investors such as pension funds, umbrella funds, corporate clients and family offices.</li><li>GraySwan Wealth provides investment consulting services to private clients who require pre and post-retirement investment advice.</li><li>Reportfolio (“Reporting on the portfolio”) provides performance and risk reports to both our institutional and private clients. </li>",
-			"cta": "<br><a href='#' class='btn btn-primary'>Contact Us</a>"
+			"cta": "<br><a href='/contact' class='btn btn-primary'>Contact Us</a>"
 		},
 		{
 			"link": "2",
 			"title": "Our Name ",
 			"quote": "<em><blockquote>In theory a “Black Swan“, as first described in AD 82, depicted a creature that did not exist. However, in 1790 a “Black Swan“ was discovered and therefore proved the existence of the improbable.</em></blockquote>",
 			"content": "<p>In Nicholas Taleb’s book, The Black Swan, he used the bird to explain the belief that “all swans are white“ is based on the limits of our experience. In other words, some occurrences are unpredictable because they deviate so far beyond what is normally expected. Such experiences are rare but when they occur they have massive consequences. Examples of such are the 9/11 twin towers event, the invention of the internet or the 2008 US sub-prime financial crises. </p><p>We can protect against what we know, but not against what we do not know. “Black Swan“ events are therefore random and unexpected. They are the unpredictable unknowns. “GraySwans”, as we coined the term, however, are risks that can be identified and which have unintended consequences on investors’ portfolios and therefore should be avoided.</p><p>At GraySwan we do not intend to predict the unpredictable. Our investment and risk advisory services rather empower our clients to avoid GraySwan risks. Risks that are unintended or uncompensated should be avoided. Robust portfolio design eliminates GraySwan risks and thereby maximizes expected returns at a predefined level of risk.</p>",
-			"cta": "<br><a href='#' class='btn btn-primary'>Contact Us</a>"
+			"cta": "<br><a href='/contact' class='btn btn-primary'>Contact Us</a>"
 		},
 		{
 			"link": "3",

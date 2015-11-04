@@ -3,17 +3,20 @@
 		{
 			"link": "1",
 			"active": "active",
-			"title": "Call and Fixed Term Cash Solutions",
+			"title": "Call & Fixed Term Cash Solutions",
 			"quote": "<blockquote><em>“Quote” - Name</em></blockquote>",
 			"content": "<p>We can offer a call account to private companies, Trusts and NPOs whereby you receive a market related interest rate based on the average of the top four qualifying' South African money market unit trust funds on a daily basis plus 0.15% less any administrative fees. There are various fixed term options available as well.</p>",
+			"list": "<ul>",
+			"list": "</ul>",
 			"cta": "<u>Contact us</u> today to obtain the latest returns."
 		},
 		{
 			"link": "2",
-			"active": "active",
 			"title": "Tax Efficient Cash+ Solutions",
-			"quote": "<blockquote><em>“Quote” - Name</em></blockquote>",
+			"quote": "<blockquote><em>Quote / Headline</em></blockquote>",
 			"content": "If your company wishes to implement solutions that provide higher after tax returns on excess liquid cash as well as protection from capital volatility we advise you to construct a Tax Efficient Cash Plus solution. Such a solution provides returns mainly in the form of dividends and offers capital preservation with 24-hour liquidity.",
+			"list": "<ul>",
+			"list": "</ul><br>",
 			"cta": "<u>Contact us</u> today to ensure that your company’s cash or short-term assets are optimally invested."
 		},
 		{
@@ -42,8 +45,9 @@
 			"title": "Business Assurance",
 			"quote": "<blockquote><em>“Quote” - Name</em></blockquote>",
 			"content": "<p>As a business owner, it is crucial to consider what will happen to your business in the event that you or one of the partners are no longer there. You need to ensure that the business you spent your entire life to build, has a proper succession plan to facilitate a smooth exit of any of the partners, whether by death of disability.</p><p>We assist you to draw up a Business Assurance plan that covers the following aspects:</p> ",
-			"list": "ul",
-			"items": "<li>Key person insurance;</li><li>Contingent liability insurance;<li>Buy & sell insurance.</li>",
+			"list": "<ul>",
+			"list": "</ul>",
+			"items": "<li>Key person insurance;</li><li>Contingent liability insurance;<li>Buy & sell insurance.</li><br>",
 			"cta": "<u>Contact us</u> today to discuss Business Assurance solutions for you."
 		}
 	]
