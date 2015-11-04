@@ -1,0 +1,88 @@
+{
+	"meet": [
+		{
+			"img": "duncan.jpg",
+			"name": "Duncan",
+			"surname": "Theron",
+			"role": "Chief Executive Officer & Executive Investment Consultant",
+			"town": "Cape Town",
+			"mobile": "082 336 8615",
+			"tel": "021 852 9092",
+			"email": "<a href='mailto:duncan@grayswan.co.za'>duncan@grayswan.co.za</a>",
+			"duties": "Senior Investment Consultant",
+			"quote": "Success comes to those who dedicate everything to their passion in life.",
+			"more": "<p>Duncan has 17 years’ investment experience of which 12 years as an investment consultant and 5 years in offshore alternative investment management. His extensive investment experience in both fields provides him with a unique perspective to ask the right questions and provide high conviction investment insights. His strong risk culture and innovative thinking ensure sustainable wealth for you. Whether you are an individual or an institutional investor, he empowers you to understand investments and to construct cost-effective solutions.</p><p>Duncan has consulted to most of the largest and most prestigious retirement funds in South Africa. He previously fulfilled the role of Director, Head of Manager Research and Senior Investment Consultant at two of the largest investment consulting companies in South Africa. He also previously fulfilled the role of Managing Director and finally the Chief Investment Officer of Sanlam’s offshore alternative asset management business.</p><p>n 2010 he founded GraySwan, a boutique and independent investment consulting company, alongside his partners Kobus, Gregoire and Tania. His commitment to professional excellence and his passion for investments accentuated with his devotion to do great things ensures that your investment experience is premium and tailor-made. </p><p>This father of three is a novice stage-racing mountain biker and surfing, fly-fishing and guitar enthusiast. He is a bespoke reader and a curious learner - always amazing you with his extensive knowledge of investments. </p>",
+			"qualifications": "<li>B Com Law;</li><li>B Com Honours (Investment Management);</li><li>Diploma in Financial Markets and Instruments;</li><li>Programme in Mathematical Modelling of Derivatives;</li><li>International Certified Hedge Fund Professional qualification;</li><li>CFA Level I;</li><li>South African Registered Persons Exams;</li><li>Financial Services Board Regulatory Exams.</li>"
+		},
+		{
+			"img": "david.jpg",
+			"name": "David",
+			"surname": "Maetla",
+			"role": "Senior Investment Consultant",
+			"town": "Johannesburg",
+			"mobile": "083 548 1267",
+			"tel": "011 431 0141",
+			"email": "<a href='mailto:david@grayswan.co.za'>david@grayswan.co.za</a>",
+			"duties": "Senior Investment Consultant",
+			"quote": "Be humble as you execute but visionary and gigantic in aspiration.",
+			"more": "<p>David is one of the most senior black investment consultants in South Africa. He has 26 years’ investment experience of which 24 years as an investment consultant and 2 years in investment management. His loyal and courageous competence always puts the client at the center of any transaction. </p><p>David has had a prestigious career at most of the largest investment consulting houses in South Africa where he consulted to a very wide range of retirement funds and medical aid scheme funds. He has provided investment advisory services to various South African clients including platinum mining retirement funds as well as municipal pension funds.  </p><p>David is a wide-eyed appreciator of nature’s soothing tranquility – be it the sound of birds or a mountaintop view. Family comes first for this humble and warm-hearted team player. </p>",
+			"qualifications": "<li>National Diploma in Wealth Management;</li><li>Financial Services Board Regulatory exams;</li><li>Currently enrolled for Advanced Certificate in Financial Planning.</li>"
+		},
+		{
+			"img": "greg.jpg",
+			"name": "Gregoire",
+			"surname": "Theron",
+			"role": "Head of Manager Research & Senior Investment Consultant",
+			"town": "Johannesburg",
+			"mobile": "073 140 6603",
+			"tel": "011 431 0141",
+			"email": "<a href='mailto:gregoire@grayswan.co.za'>gregoire@grayswan.co.za</a>",
+			"duties": "Senior Investment Consultant",
+			"quote": "Opportunity exists for those who look.",
+			"more": "<p>As Head of Manager Research Gregoire leads the GraySwan Investment Committee and investment manager research efforts. He and his research team focuses on proprietary and fundamental investment manager research. He is exceptionally committed and together with his team of research analysts, performs rigorous and scrutinizing manager due diligence, both qualitatively, quantitatively and operationally. No stone is left unturned as they skillfully find tomorrow’s consistent performer. </p><p>He has 12 years’ investment experience of which 7 years as an investment consultant and 5 years in offshore alternative investment management. His previous role as Head of Risk at Sanlam’s offshore alternative investment business strategically trained him to find investment managers with superior risk-adjusted performance. His thorough and critical thinking feeds into his role as Senior Investment Consultant to provide transparent and leading-edge investment solutions for you.</p><p>Under his eagle eye guidance the investment manager research team continuously meets with investment managers as part of our due diligence process and furthermore produces more than 30 different extensive monthly peer group investment manager surveys, covering all asset classes within local, developed and developing markets. </p><p>He is father to a curly haired daughter, always in for a good laugh, thrives on the bountiful energy of the city and is an ambitious musician (not magician) by heart. </p>",
+			"qualifications": "<li>International Certified Hedge Fund Professional qualification;</li><li>Financial Services Board Regulatory exams; </li><li>Registered Persons Exams.</li>"
+		},
+		{
+			"img": "kobus.jpg",
+			"name": "Kobus",
+			"surname": "Fouche",
+			"role": "Head of Reporting",
+			"town": "Cape Town",
+			"mobile": "072 246 1695",
+			"tel": "021 852 9092",
+			"email": "<a href='mailto:kobus@grayswan.co.za'>kobus@grayswan.co.za</a>",
+			"duties": "Senior Investment Consultant",
+			"quote": "Beyond the measurement of money.",
+			"more": "<p>Kobus’s extraordinary ability to be clear-sighted amidst complex and dynamic market conditions allow our clients to fearlessly and unemotionally navigate through volatile and uncertain territories. He intelligently combines mathematical thinking and systematic modelling into practical and realistic solutions for investors. </p><p>His prudent analytical insights and sophisticated programming skills enable him to build authentic monitoring and reporting systems. With an unbiased and objective viewpoint he is brilliantly positioned to fulfil his role as Head of Reporting and Senior Investment Consultant. </p><p>He has 9 years’ investment experience of which 5 years as an investment consultant and 4 years in offshore alternative investment management. He has worked with Duncan and Gregoire his entire career and the tight knitted team phenomenally complements each other. You can be at ease as he understands intricate investment methodologies on your behalf. </p><p>Born and raised in Pretoria, he has great love for the Bushveld, loves to be off-road whether it is in his bakkie or his trail-runner shoes and remains a Blue Bull fan. </p>",
+			"qualifications": "<li>BSc Financial and Actuarial Mathematics degree;</li><li>Honours degree in Mathematical Statistics (Cum Laude);</li><li>Financial Services Board Regulatory Exams.</li>"
+		},
+		{
+			"img": "karlien.jpg",
+			"name": "Karlien",
+			"surname": "de Bruin",
+			"role": "Head of Responsible Investing & Senior Investment Analyst ",
+			"town": "Cape Town",
+			"mobile": "084 244 7177",
+			"tel": "021 852 9092",
+			"email": "<a href='mailto:karlien@grayswan.co.za'>karlien@grayswan.co.za</a>",
+			"duties": "Senior Investment Analyst",
+			"quote": "Impossible dreams start with practical plans.",
+			"more": "<p>Always challenging the status quo and seeking for fresh and sustainable ways to deliver excellent and trusted service, Karlien is Head of Responsible Investing and also chairs our Responsible Investing Committee. She is a competitive individual that is interested in purposeful results. She has more than 14 years' of investment experience which includes both investment consulting and asset and liability management experience. </p><p>As a CFA Charterholder she is highly respected for the pioneering work she is doing on Responsible Investing. At previous employers she pioneered Transaction Cost Analyses (TCA) and was instrumental in managing many of the largest transitions in the retirement fund industry. These fields remains her expertise and she continuously builds on such to provide comprehensive value add to our clients. </p><p>She is a highly competitive time-trail and extreme multi-day cyclist, a refined coffee drinker and an aspirational pilot. Impossible dreams start with practical plans.</p>",
+			"qualifications": "<li>BSc Actuarial Science;</li><li>B Com Honours in Investment Management;</li><li>Qualification in Advanced Project Management; </li><li>Carbon Footprint Analyst;</li><li>CFA Charter holder.</li>"
+		},
+		{
+			"img": "tania.jpg",
+			"name": "Tania",
+			"surname": "Theron",
+			"role": "Chief Financial Officer & Head of GraySwan Wealth",
+			"town": "Cape Town",
+			"mobile": "071 605 1863 ",
+			"tel": "021 852 9092",
+			"email": "<a href='mailto:tania@grayswan.co.za'>tania@grayswan.co.za</a>",
+			"duties": "Chief Financial Officer",
+			"quote": "Never touch anything with half or your heart.",
+			"more": "<p>Tania is a Chartered Accountant by profession and has a keen interest for taxation legislation. She cuts no corners and her perfectionistic eye misses no detail – she has the ability to think of everything that never even occurred to you. Her pedantic disciplined and organized work ethic makes it a delight for clients to be in her presence. Every task is performed effortlessly and she implements and executes transactions while you have a worry-free investment experience. Her previous work experience at one of South Africa’s largest accounting firms and also at one of the biggest banks trained her to build strong client relationships through service excellence.</p><p>Her professional excellence is uniquely combined with a passionate and purpose-driven heart. She manages the GraySwan Charitable Trust together with three other trustees. Giving and helping is a devotion the entire team at GraySwan infinitely pursues. It’s part of our DNA as we allocate 10% of our profits to our direct community.  </p><p>Her precision and perfection aren’t just a matter of professionalism; she is an avid golfer and hits the ball with the accuracy only a CA possesses. If she’s not being a supermom to her 3 kids, she mountain bikes , attends social events  or explores the countless cuisine secrets that the Winelands has to offer.</p>",
+			"qualifications": ""
+		}
+	]
+}
