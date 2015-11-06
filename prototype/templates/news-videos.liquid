@@ -3,7 +3,9 @@
 		<h5 class="pull-left">&mdash; NEWS &amp; UPDATES: Videos</h5>
 		<ul class="nav nav-pills small pull-right">
 		  <li role="presentation" class="active"><a href="#">All</a></li>
-		  <li role="presentation"><a href="#">Featured</a></li>
+		  <li role="presentation"><a href="#">Popular</a></li>
+		  <li role="presentation"><a href="/insights-personal">Newsletters</a></li>
+		  <li role="presentation"><a href="/insights-responsible">In The Press</a></li>
 		  <li class="dropdown">
 		    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Archives<b class="caret"></b></a>
 		    <ul class="dropdown-menu">
@@ -13,7 +15,6 @@
 		      <li><a href="#">2012</a></li>
 		    </ul>
 		  </li>
-		 
 		</ul>
 		<div class="clearfix"></div>
 
@@ -28,12 +29,15 @@
 	</div>
 </div>
 
+
+<div class="container">
+	{% include "newsletter" %}
+
+
 <div class="container">
 	{% include "videos" %}
 </div>
 
 <div class="container">
-	
-	{% include "newsletter" %}
 
 {% endblock %}

@@ -11,6 +11,7 @@
 	<div class="row">
 	<div class="col-md-12">
 		<div class="jumbotron">
+			<!-- moved elsewhere
 			<h2>Responsible Investing Services</h2>
 			<p class="lead">There are various ways that you can benefit from our extensive <em>Responsible Investing</em> knowledge. We can assist you to:</p>
 			<ul>
@@ -25,11 +26,15 @@
 			<p class="lead"><a href="#"><u>Contact us</a></u> today to ensure superior yet sustainable returns.</p>
 			<br>
 			<hr>
+			-->
 		<div class="row">
 			<div class="col-md-5">
 				{% for responsible in model.responsible %}
 					<h2><a href="#{{ responsible.link }}" role="tab" data-toggle="tab">{{ responsible.title }}</a></h2>
 				{% endfor %}
+				<hr>
+				<p><a class="btn btn-primary" href="#">Contact Us </a> <a class="btn btn-primary" href="#">Download Brochure </a></p>
+				<hr>
 			</div>
 			<div class="col-md-7">
 				<div class="tab-content">

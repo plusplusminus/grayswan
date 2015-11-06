@@ -1,35 +1,96 @@
 {% block content %}
+	<!-- removed
 	<div class="hero">
 		<h5>&mdash; CONTACT US</h5>
 		<hr>
 		<h2><p>Cras mattis consectetur purus sit amet fermentum.</p><span class="small"><p>Donec id elit non mi porta gravida at eget metus.</p></span>
 	</div>
+	-->
 
-	<form class="form-inline">
-	  <div class="form-group">
-	    <label for="exampleInputName2">Name</label>
-	    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleInputEmail2">Email</label>
-	    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-	  </div>
-	  <br><br><br>
-	  <p><label>Subject</label></p>
-	  <select class="form-control" style="margin: 0px; width: 436px;">
-		  <option>Personal Investing</option>
-		  <option>Institution Investing</option>
-		  <option>Corporate Investing</option>
-		  <option>Family Office Investing</option>
-		</select>
-	  <br><br><br>
-	  <p><label>Message</label></p>
-	  <p><textarea class="form-control" rows="3" style="margin: 0px; width: 436px; height: 98px;"></textarea></p>
-	  <br><br><br>
-	  <p><button type="submit" class="btn btn-default">Send Message</button></p>
-	</form>
+	<div class="container-fluid">
+	<br>
+		<div class="jumbotron">
+				<div role="tabpanel">
+					<div class="col-md-5">
+						{% for contact in model.contact %}
+							<h2><a href="#{{ contact.link }}" role="tab" data-toggle="tab">{{ contact.title }}</a></h2>
+						{% endfor %}
+					<hr>
+					</div>
+					<div class="col-md-7">
+						<div class="tab-content">
+							{% for contact in model.contact %}					
+								<div role="tabpanel" class="tab-pane {{ contact.active }}" id="{{ contact.link }}">
+								<br><br>
+									<strong><small>&mdash; {{ contact.title }}</small></strong>
+									<p class="lead">{{ contact.quote }}</p>	
+									{{ contact.content }}
+									{{ contact.list }}
+										{{ contact.items }}
+									{{ contact.list }}
+									{{ contact.post-content }}
+									<a href="#">{{ contact.cta }}</a>
+								</div>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+		<div class="clearfix"></div>
+		<br><br>
 
-<br><br><br>
+	<hr>
+
+		<div class="row">
+			<div class="col-md-6">
+				<form class="form-inline">
+					<div class="form-group">
+						<p><label>Name</label></p>
+					 	<textarea class="form-control" rows="1" style="margin: 0px; width: 436px; height: 35px;"></textarea>
+						<br><br><br>				  
+						<p><label>Preferred Method of Contact</label></p>
+						<select class="form-control" style="margin: 0px; width: 436px;">
+							<option>Email</option>
+							<option>Mobile</option>
+							<option>Telephone</option>
+						</select>
+					  	<br><br><br>
+						<p><label>Email</label></p>
+						<textarea class="form-control" rows="1" style="margin: 0px; width: 436px; height: 35px;"></textarea> 
+						<br><br><br>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputName2">Phone</label>
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="012 345 6789">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputName2">Mobile</label>
+						<input type="text" class="form-control" id="exampleInputName2" placeholder="081 345 6789">
+					</div>
+					<br><br><br>
+				</form>
+			</div>
+			<div class="col-md-6">
+				<form class="form-inline">
+					<p><label>Query Type</label></p>
+					<select class="form-control" style="margin: 0px; width: 436px;">
+						<option>General Enquiries</option>
+						<option>Institutional/Corporate Enquiries</option>
+						<option>Personal / Family Office Enquiries</option>
+					</select>
+					<br><br><br>
+					<p><label>Subject</label></p>
+					<textarea class="form-control" rows="1" style="margin: 0px; width: 436px; height: 35px;"></textarea>
+					<br><br><br>				 
+					<p><label>Message</label></p>
+					<p><textarea class="form-control" rows="3" style="margin: 0px; width: 436px; height: 98px;"></textarea></p>
+					<br><br><br>
+					<p><button type="submit" class="btn btn-default pull-right">Send Message</button></p>
+				</form>
+			</div>
+		</div>
+		
+		</div><!--/.jumbotron-->
+	</div><!--/.container-fluid-->
 
 {% endblock %}
 
