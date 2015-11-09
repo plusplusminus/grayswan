@@ -6,28 +6,12 @@
 		<a href="#" class="fa fa-2x fa-long-arrow-down"></a>
 	</div>
 </div>
-<div class="container">
+
+
+<div class="container-fluid">
 	<br>
-	<div class="row">
-	<div class="col-md-12">
-		<div class="jumbotron">
-			<!-- moved elsewhere
-			<h2>Responsible Investing Services</h2>
-			<p class="lead">There are various ways that you can benefit from our extensive <em>Responsible Investing</em> knowledge. We can assist you to:</p>
-			<ul>
-				<li>Understand RI;</li>
-				<li>Make RI practical for Trustees;</li>
-				<li>Start investing in RI products;</li>
-				<li>Implement an RI Policy;</li>
-				<li>Become a PRI signatory;</li>
-				<li>Join our RI Committee meetings;</li>
-				<li>Join our pioneering efforts to transform the investment industry.</li>
-			</ul>
-			<p class="lead"><a href="#"><u>Contact us</a></u> today to ensure superior yet sustainable returns.</p>
-			<br>
-			<hr>
-			-->
-		<div class="row">
+	<div class="jumbotron">
+		<div role="tabpanel">
 			<div class="col-md-5">
 				{% for responsible in model.responsible %}
 					<h2><a href="#{{ responsible.link }}" role="tab" data-toggle="tab">{{ responsible.title }}</a></h2>
@@ -38,15 +22,15 @@
 			</div>
 			<div class="col-md-7">
 				<div class="tab-content">
-					{% for responsible in model.responsible %}
+					{% for responsible in model.responsible %}					
 						<div role="tabpanel" class="tab-pane {{ responsible.active }}" id="{{ responsible.link }}">
 							<br><br>
 							<strong><small>&mdash; {{ responsible.title }}</small></strong>
 							<p class="lead">{{ responsible.quote }}</p>	
 							{{ responsible.content }}
-							<{{ responsible.list }}>
+							{{ responsible.list }}
 								{{ responsible.items }}
-							</{{ responsible.list }}>
+							{{ responsible.list }}
 							{{ responsible.post-content }}
 							<a href="#">{{ responsible.cta }}</a>
 						</div>
@@ -54,11 +38,9 @@
 				</div>
 			</div>
 		</div>
-		</div>
-	</div>
-
-
-<div class="clearfix"></div>
+	<div class="clearfix"></div>
+	<br><br>
+	</div><!--/.jumbotron-->
 </div>
 
 <div class="container">
